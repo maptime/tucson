@@ -7,7 +7,7 @@ repo: starter
 github_org: maptime
 maptime:
   chapter: Tucson
-  twitter: TwitterHandle
+  twitter: MaptimeTUS
   #disqus: YOUR DISQUS USERNAME
 
 gems:
