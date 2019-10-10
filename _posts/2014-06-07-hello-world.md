@@ -3,5 +3,4 @@ layout: post
 title: Coming Soon!
 ---
 
-Replace this post with an introduction to your MapTime meetup! Posts
-are written in [Markdown](https://guides.github.com/features/mastering-markdown/).
+Maptime Tucson is organized by the [Office of Digital Innovation & Stewardship at the University of Arizona Libraries](https://libguides.library.arizona.edu/GIS). If you would like to be involved in the organizing & planning of Maptime please contact us at maptime.tus@gmail.com
