@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello world
+title: Coming Soon!
 ---
 
 Replace this post with an introduction to your MapTime meetup! Posts
