@@ -5,4 +5,4 @@ title: Meetup event
 rsvp: http://procatinator.com/
 ---
 
-You should add things here.
+Coming SPRING 2020.
