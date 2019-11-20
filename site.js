@@ -6,7 +6,7 @@ function githubWatchers() {
     $.ajax({
         url: 'https://api.github.com/repos/' +
             'maptime' + '/' +
-            '{{site.repo}}' + '/subscribers',
+            '{{site.maptime.chapter}}' + '/subscribers',
         dataType: 'jsonp',
         success: function(res) {
             if (!res.data.length) return;
