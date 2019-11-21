@@ -120,7 +120,7 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
 
 .fill-chapter {
   /* Replace this with a map of your city */
-  background-image:url(https://s3.amazonaws.com/images.m2i.stamen.com/20191119/watercolor_jqItsZAKyJ0.jpeg); 
+  /*background-image:url(https://s3.amazonaws.com/images.m2i.stamen.com/20191119/watercolor_jqItsZAKyJ0.jpeg);*/ 
   background-repeat:no-repeat;
   background-size:cover;
   max-width:100%;
