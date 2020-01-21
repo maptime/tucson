@@ -1,7 +1,7 @@
 ---
 layout: event
 category: event
-title: TBD
+title: May Maptime
 rsvp: https://libguides.library.arizona.edu/GIS/MaptimeTUS
 ---
 
