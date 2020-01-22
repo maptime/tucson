@@ -37,9 +37,9 @@ Again these pages can be used for
 * Professional portfolios
 
 
-# Why do GeoSpatial users care about Pages?
+## Why do GeoSpatial users care about Pages?
 
-!I might have to leave this part to you Kiri !
+Pages are a great way to share your resume or create a portfolio of either static or web maps. 
 
 # Examples of Pages
 
