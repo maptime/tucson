@@ -66,13 +66,23 @@ That's the idea!
 
 # First steps
 
-* go to this link [https://guides.github.com/features/pages/](https://guides.github.com/features/pages/)
+* Go to this link [https://guides.github.com/features/pages/](https://guides.github.com/features/pages/)
+* ! Kiri are there any other things I should attach here, or are people mostly going to be going to the page and using it that way?
 
 
 # Advanced options
 
-* 
+* Configuring your theme
+! not sure what info to add here as it is uknown to me
+
+# Advanced options
 * Project pages
+    * create new repository
+    * go to settings 
+    * set up gitpages hosting
+    * go to "username.github.io/my-new-repo" to see the result
+    * modify with glee!
+
 
 # Go forth and Page!
 
