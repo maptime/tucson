@@ -2,7 +2,7 @@
 layout: event
 category: event
 title: Playing with Web Maps
-rsvp: https://libguides.library.arizona.edu/GIS/MaptimeTUS
+rsvp: https://libcal.library.arizona.edu/calendar/catalyst/maptime2
 ---
 
 Ease your way in to making web maps by playing around with a javascript library called [Leaflet](https://leafletjs.com/) by remixing some code & a creating a map using a fun site called [Glitch.](https://glitch.com/)
