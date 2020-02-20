@@ -1,10 +1,10 @@
-**February**
+# **February**
+
+## Playing with Web Maps
 
 SIGN IN: https://hackmd.io/@maptimeTUS/ryyvaDhm8
 
-Making a Leaflet Web Map using Glitch!
-
-For starters:
+**For starters:**
 
 Leaflet is "an open-source JavaScript library
 for mobile-friendly interactive maps" and a common (and great) way to display your data.
@@ -25,21 +25,20 @@ Quick Start Guide from Leaflet
 https://leafletjs.com/examples/quick-start/
 
 
-"Remix to Edit"
+**"Remix to Edit"**
 
 Clicking on the "Remix" button of any Leaflet map on Glitch will allow you to edit the map and make it your own.  It makes a new project on your Glitch account and gives you a randomly generated name like "Buttery-waltz" or "Torch-redcurrant."  Like everything in the app, the project name can be changed and the code/files altered once you've "remixed" the app.  
 
-"Show"
+**"Show"**
 
 This button allows you to few your map in real-time and displays changes as you make them in the script.  If nothing shows up on the map, altering your code is most likely required. 
 
 
-The pane on the left-hand side of the app will display assets, env, README.md, index.html, script.js and style.css.
+*The pane on the left-hand side of the app will display assets, env, README.md, index.html, script.js and style.css.*
 
-Breakdown
+### Breakdown
 
-
-Assets:
+**Assets:**
 
 •	Any file from your computer can be placed here. 
 •	Any data for the project, images or geojsons or shapefiles. 
@@ -48,7 +47,7 @@ Assets:
 •	For my example, I added the https://opendata.arcgis.com/datasets/7e33977fe38941d38a3c3e8bca5de158_1.geojson into the Assets folder in order to reference the data in the script.
 
 
-Index.html:
+**Index.html:**
 
 •	HTML code block that outlines your map. 
 •	Directs CSS styles to the map and javascript code into the map and references the script.js
@@ -56,7 +55,7 @@ Index.html:
 •	Able to be shown a live preview at “Show” button on the top
 •	Sets up the order of your page (i.e. Title, description/link, map, Glitch button with a link to the glitch itself)
 
-Script.js
+**Script.js**
 
 •	Where you can do things with the data
 •	Using JavaScript, making the map is your first step by defining it and adding a tileLayer a.k.a. basemap tiles
@@ -64,7 +63,7 @@ Script.js
 •	Insert the data using the fetch( “INSERT YOUR GEOJSON HERE”)
 •	From here, more functions can be done with the data, for example adding and customizing a pop up on your map or adding a legend.
 
-Style.css
+**Style.css**
 
 •	CSS files add styling rules to your content
 •	Fonts, colors, height/width, popup colors, and positioning of popups are all defined here. 
