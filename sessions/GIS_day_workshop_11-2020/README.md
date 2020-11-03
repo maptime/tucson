@@ -1,12 +1,60 @@
-# Testing adding materials to this 
-
-![](https://s3.amazonaws.com/statescoop-media/uploads/GIS-big-data-graphic-getty.jpg?mtime=20170821165732)
+# Workflow to create VR/AR Web experiences from Lidar data 
 ## Steps
+
+## Getting your resources
+
+### Getting the lidar data
+
+* Visit https://prd-tnm.s3.amazonaws.com/LidarExplorer/index.html#/ and zoom in on Tucson
+* Click the box select tool under the `+ -` and home buttons in the top left corner of the map 
+* Click on the map once to start drawing the selection box, and a second point to complete the shape
+* in the panel that appears on the right side select `lidar within AOI` 
+* Click the folder, and finally select one of the lidar entries to open in a new tab
+* On the new page scroll down to section titled `Related External Resources`
+* Start your download for the `.laz` resource 
+
+### Getting the orthographic imagery
+
+* Visit https://libguides.library.arizona.edu/GIS/ImageryandLidar and click on the 2017 button under the section *NAIP Imagery*
+* This is the tricky step, you must try to find a section of landscape that overlaps significantly with your lidar data, so try to select the same part of arizona 
+* Click on that tile, and choose to *Download*
+
+
+## Installing and running the python code
+### Setting up conda for python to help you install existing code 
+For this section you will need to install `miniconda` to follow the steps verbatim. If you have your own existing python code setup then I will assume you know what's going on and you'll manage to get the required packages. 
+
+* go to https://docs.conda.io/en/latest/miniconda.html and download the correct installer for your operating system
+* Follow the other instructions on the page to complete the installation
+
+### Install Point data abstraction library (PDAL) and laspy
+
+* In a command line run this command `conda install --channel conda-forge pdal`, which should give you a *yes/no* option to install PDAL and its dependencies , go ahead and say *yes*
+* Using the standard python installer install `laspy`  with `pip install laspy`
+
+### Getting the code and colorizing our pointcloud
+
+[pdal file](./colorize.json)
+
+* first edit the colorize.json  and make 3 changes
+    * change where it says `change_1` to the name of the lidar `.laz` file you downloaded
+    * change where it says `change_2` to the orthographic image `.tif` you downloaded
+* then using your command line you'll execute the PDAL pipeline command 
+    * `pdal pipeline colorize.json` 
+    * this will take a while to execute, but in the mean time we will continue with some previously generated results
+
+[python code](./python_processing.py)
+
+* now using this program we will convert our colorized points into a `.txt` file that meshlab can read
+* simply run `python python_processing.py` and you will convert the `colorized.laz` into `colorized.txt`
+
+
+
 
 ## Processing your Colorized Point Cloud into a textured mesh
 
 * Open Meshlab
-* import the `.txt` file
+* import the `colorized.txt` file
 
 ![](./screenshot_from_2020-10-29_14-56-35.png)
 
@@ -17,7 +65,7 @@
 
 ![](./screenshot_from_2020-10-29_15-16-22.png)
 
-* (optional) invert your normals
+* (optional) calculate your normals
     * makes for more color accurate visuals while working
 
 ![](./screenshot_from_2020-10-29_15-19-11.png)
@@ -30,14 +78,14 @@
 
 ![](./screenshot_from_2020-10-29_15-25-04.png)
 
-    * or Poisson disc sampling
+* or Poisson disc sampling
 
 ![](./screenshot_from_2020-10-29_15-26-30.png)
 
 
 ![](./screenshot_from_2020-10-29_15-26-47.png)
 
-    * these steps can take some time to complete
+* these steps can take some time to complete
 
 * result should look a lot less densely packed, only about 7k points instead of 11 million
 
@@ -73,9 +121,9 @@
 
 ![](./screenshot_from_2020-10-29_15-39-35.png)
 
-    * make sure the  source mesh is the original point cloud with 11 million points
-    * target mesh is the poisson mesh
-    * texture width and height are atleast 4096 (higher numbers gives more resolution for final product )
+* make sure the  source mesh is the original point cloud with 11 million points
+* target mesh is the poisson mesh
+* texture width and height are atleast 4096 (higher numbers gives more resolution for final product )
 
 ![](./screenshot_from_2020-10-29_15-41-31.png)
 
@@ -134,6 +182,9 @@
 * name export file something like `poisson_mesh` and the glb will be added on its own
 
 ![](./screenshot_from_2020-10-29_15-55-04.png)
+
+## Importing into VR/AR on the WEB!!
+
 
 
 

@@ -1,0 +1,1 @@
+{"pipeline": ["change_1", {"type": "filters.colorization", "raster": "change_2"}, {"type": "filters.range", "limits": "Red[1:]"}, {"type": "writers.las", "compression": "true", "minor_version": "2", "dataformat_id": "3", "filename": "colorized.laz"}]}
