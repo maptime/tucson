@@ -1,11 +1,25 @@
 # Workflow to create VR/AR Web experiences from Lidar data 
+
+## Example  pages
+
+This workshop will be a bit of a steep 90 minutes of following steps carefully, but I hope you'll decide it's worth it after looking at these two examples
+
+* [Finger Rock model in AR on your phone](https://finger-rock-ar.glitch.me/)
+  * Open the link and then tap the icon that looks like a cube
+  * Point your phone down at a horizontal surface (your floor or desk should  work)  and gently move it so it can identify a platform
+  * Once the model appears, move your phone around to view the model from different perspectives
+* [Finger Rock model in VR/3D on computer](https://finger-rock-vr.glitch.me/)
+  * Click on the link, then wait for the model to load 
+  * Once it appears (it might be below you) use the arrow keys to move the camera around the scene, and click drag to change the direction the camera faces
+
+
 ## Steps
 
 ## Getting your resources
 
 ### Getting the lidar data
 
-* Visit https://prd-tnm.s3.amazonaws.com/LidarExplorer/index.html#/ and zoom in on Tucson
+* Visit [https://prd-tnm.s3.amazonaws.com/LidarExplorer/index.html#/](https://prd-tnm.s3.amazonaws.com/LidarExplorer/index.html#/) and zoom in on Tucson
 * Click the box select tool under the `+ -` and home buttons in the top left corner of the map 
 * Click on the map once to start drawing the selection box, and a second point to complete the shape
 * in the panel that appears on the right side select `lidar within AOI` 
@@ -15,7 +29,7 @@
 
 ### Getting the orthographic imagery
 
-* Visit https://libguides.library.arizona.edu/GIS/ImageryandLidar and click on the 2017 button under the section *NAIP Imagery*
+* Visit [https://libguides.library.arizona.edu/GIS/ImageryandLidar](https://libguides.library.arizona.edu/GIS/ImageryandLidar) and click on the 2017 button under the section *NAIP Imagery*
 * This is the tricky step, you must try to find a section of landscape that overlaps significantly with your lidar data, so try to select the same part of arizona 
 * Click on that tile, and choose to *Download*
 
