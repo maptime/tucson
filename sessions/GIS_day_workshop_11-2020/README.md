@@ -134,7 +134,14 @@ This `colorize.json` will specify how to combine the ortho image with the lidar 
 
 ## Importing into VR/AR on the WEB!!
 
+Lets start with  the AR example, its a bit easier to setup
 
+* Go to this link [https://glitch.com/~lidar-ar-template](https://glitch.com/~lidar-ar-template), and scroll down a bit till you see the *Remix Your Own* button, and click it
+* When the page finishes loading click the *Assets* line In the tab on the left
+* Then select upload an asset and upload the `pmesh.glb` we created in blender
+* When that finishes uploading, click on the new `pmesh.glb` asset icon, and copy the link it provides
+* In the left tab click on `index.html` file and paste the link in the the quotation marks replacing where it says *paste here!!*
+* Once you do that click on the *Show* button at the top and pick one of the options. The url for the page that comes up will also be valid for your phone's browser so test it out there for the real AR experience!
 
 
 
