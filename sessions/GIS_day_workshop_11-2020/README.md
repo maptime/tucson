@@ -2,7 +2,7 @@
 
 ## Example  pages
 
-This workshop will be a bit of a steep 90 minutes of following steps carefully, but I hope you'll decide it's worth it after looking at these two examples
+This workshop will be a lot like a strenous hike. For 90 minutes you will follow a steep trail of steps carefully, one wrong move and you could tumble back to the start (intense!), but I hope you'll decide once we reach the summit its worth it. To help you realize that lets look at a couple of examples.
 
 * [Finger Rock model in AR on your phone](https://finger-rock-ar.glitch.me/)
   * Open the link and then tap the icon that looks like a cube
@@ -48,7 +48,9 @@ For this section you will need to install `miniconda` to follow the steps verbat
 
 ### Getting the code and colorizing our pointcloud
 
-[pdal file](./colorize.json)
+
+
+[pdal file](https://drive.google.com/file/d/1z8L70_xb8KlX6sHx1R_ZiysCTthR4PtM/view?usp=sharing)
 
 * first edit the colorize.json  and make 3 changes
     * change where it says `change_1` to the name of the lidar `.laz` file you downloaded
@@ -57,7 +59,7 @@ For this section you will need to install `miniconda` to follow the steps verbat
     * `pdal pipeline colorize.json` 
     * this will take a while to execute, but in the mean time we will continue with some previously generated results
 
-[python code](./python_processing.py)
+[python code](https://drive.google.com/file/d/1gpZ983aM2m32CzhHNfkGlj8ykgHbaAE6/view?usp=sharing)
 
 * now using this program we will convert our colorized points into a `.txt` file that meshlab can read
 * simply run `python python_processing.py` and you will convert the `colorized.laz` into `colorized.txt`
