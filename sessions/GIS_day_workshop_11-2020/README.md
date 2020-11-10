@@ -50,12 +50,11 @@ For this section you will need to install `miniconda` to follow the steps verbat
 
  [pdal file](https://drive.google.com/file/d/1z8L70_xb8KlX6sHx1R_ZiysCTthR4PtM/view?usp=sharing)
 
-* first edit the colorize.json  and make 3 changes
-    * change where it says `change_1` to the name of the lidar `.laz` file you downloaded
-    * change where it says `change_2` to the orthographic image `.tif` you downloaded
-* then using your command line you'll execute the PDAL pipeline command 
-    * `pdal pipeline colorize.json` 
-    * this will take a while to execute, but in the mean time we will continue with some previously generated results 
+This `colorize.json` will specify how to combine the ortho image with the lidar data. In order to use the pdal command to combine them we have to rename our files.
+
+* Make your lidar data into a file named `lidar.laz`
+* Make your ortho image into a file named `ortho.tif`
+* Then run `pdal pipeline colorize.json`
 
 [python code](https://drive.google.com/file/d/16eLoCfCsEl4F2iAzDu_KuQKntbNwWgdd/view?usp=sharing)
 
