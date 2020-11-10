@@ -134,15 +134,29 @@ This `colorize.json` will specify how to combine the ortho image with the lidar 
 
 ## Importing into VR/AR on the WEB!!
 
-Lets start with  the AR example, its a bit easier to setup
+We will be using *glitch.me* for our free websites that we can use to view our work in VR and AR! Without making an account (painless, free) you can use your websites for 5 days before they are deleted.
 
-* Go to this link [https://glitch.com/~lidar-ar-template](https://glitch.com/~lidar-ar-template), and scroll down a bit till you see the *Remix Your Own* button, and click it
+* Go to this link [https://glitch.com/~lidar-web-template](https://glitch.com/~lidar-web-template), and scroll down a bit till you see the *Remix Your Own* button, and click it
 * When the page finishes loading click the *Assets* line In the tab on the left
 * Then select upload an asset and upload the `pmesh.glb` we created in blender
-* When that finishes uploading, click on the new `pmesh.glb` asset icon, and copy the link it provides
-* In the left tab click on `index.html` file and paste the link in the the quotation marks replacing where it says *paste here!!*
+
+We need the above steps for both versions of the webpage
+
+Lets start with  the AR example, its a bit easier to setup
+
+* In the left tab click on `ar-template.html` file and copy the contens to the clipboard (ctrl-c usually does the trick)
+* In the left tab click on `index.html` file and paste the contents of the `ar-template.html` in over all the existing text
+* By now your asset will probably have uploaded, so click on the assets line in the left tab again, then click on the new `pmesh.glb` asset icon, and copy the link it provides
+* Go back to the `index.html` file and paste the link inside the quotation marks where it says *paste here!!*, don't overwrite the quotation marks as they are needed
 * Once you do that click on the *Show* button at the top and pick one of the options. The url for the page that comes up will also be valid for your phone's browser so test it out there for the real AR experience!
 
+For the VR version we are going to do more or less the same steps
 
+* In the left tab click on `vr-template.html` file and copy the contens to the clipboard (ctrl-c usually does the trick)
+* In the left tab click on `index.html` file and paste the contents of the `vr-template.html` in over all the existing text
+* Click on the assets line in the left tab again, then click on the new `pmesh.glb` asset icon, and copy the link it provides
+* Go back to the `index.html` file and paste the link inside the quotation marks where it says *paste here!!*, don't overwrite the quotation marks as they are needed
+* Once you do that click on the *Show* button at the top and pick one of the options. The url for the page that comes up will also be valid for your phone's browser so test it out there for the real AR experience!
+* Once it appears (it might be below you) use the arrow keys to move the camera around the scene, and click drag to change the direction the camera faces
 
 
