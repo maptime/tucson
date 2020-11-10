@@ -55,7 +55,9 @@ For this section you will need to install `miniconda` to follow the steps verbat
     * change where it says `change_2` to the orthographic image `.tif` you downloaded
 * then using your command line you'll execute the PDAL pipeline command 
     * `pdal pipeline colorize.json` 
-    * this will take a while to execute, but in the mean time we will continue with some previously generated results [python code](https://drive.google.com/file/d/16eLoCfCsEl4F2iAzDu_KuQKntbNwWgdd/view?usp=sharing)
+    * this will take a while to execute, but in the mean time we will continue with some previously generated results 
+
+[python code](https://drive.google.com/file/d/16eLoCfCsEl4F2iAzDu_KuQKntbNwWgdd/view?usp=sharing)
 
 * now using this program we will convert our colorized points into a `.txt` file that meshlab can read
 * simply run `python python_processing.py` and you will convert the `colorized.laz` into `colorized.txt`
