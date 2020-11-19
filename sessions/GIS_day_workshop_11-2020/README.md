@@ -51,6 +51,10 @@ This workshop will be a lot like a strenous hike. For 90 minutes you will follow
 
 ## Getting your resources
 
+For this workshop we will be using Lidar data and orthographic imagery. It is worthwhile to take a brief moment to explain what these are
+
+[slides](https://docs.google.com/presentation/d/1WGuER6IN57kYKW8KgnLx9F184JyvSEqYsc_Ygl3FL3M/edit?usp=sharing)
+
 ### Getting the lidar data
 
 * Visit [https://prd-tnm.s3.amazonaws.com/LidarExplorer/index.html#/](https://prd-tnm.s3.amazonaws.com/LidarExplorer/index.html#/) and zoom in on Tucson
