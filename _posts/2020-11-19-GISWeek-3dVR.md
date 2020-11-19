@@ -1,7 +1,7 @@
 ---
 layout: event
 category: event
-title: GIS Week 2020: Mt. Lemmon in Your Back Pocket - Using LiDAR to Create a VR App
+title: GIS Week 2020 Mt. Lemmon in Your Back Pocket - Using LiDAR to Create a VR App
 rsvp: https://libcal.library.arizona.edu/event/7239874
 ---
 
