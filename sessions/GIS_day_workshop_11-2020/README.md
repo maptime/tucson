@@ -12,10 +12,48 @@ This workshop will be a lot like a strenous hike. For 90 minutes you will follow
   * Click on the link, then wait for the model to load 
   * Once it appears (it might be below you) use the arrow keys to move the camera around the scene, and click drag to change the direction the camera faces
 
+## Glossary of terms
+
+
+**LiDAR:** Light Detection and Ranging, is a remote sensing method that uses light in the form of a pulsed laser to measure ranges (variable distances) to the Earth.
+
+**NAIP:** National Agriculture Imagery Program acquires aerial imagery during the agricultural growing seasons in the continental U.S. Images available within year of acquisition and are freely available. Spatial resolution is .6-2meters, Spectral resolution is 4 band (Red, Green, Blue, and Near Infrared), and is acquired on a 3-year cycle.
+
+**PDAL:** Point Data Abstraction Library is a C++ library for translating and manipulating point cloud data. It allows the user to compose operations on point clouds into pipelines. While its focus is many on LiDAR it is not limited to this form of data.
+
+**Orthoimage:** An aerial photograph or satellite imager that has been geometrically corrected (orthorectified) and given a map projection. Often referred to as a digital orthophoto quadrangle (DOQ). 
+
+**LAS and LAZ:** A LAS file is an industry-standard binary format for storing airborne LiDAR point cloud data. LAS files can be large so are often compressed to the LAZ format in order to transfer large amounts of LiDAR data.
+
+**MeshLab:** Open source 3D modeling program. Compared with other open source tools, Meshlab has undeniable strengths when it comes to operating on pointcloud inputs. Outputs can be 3D meshes in a variety of formats with or without textures.
+
+**Mesh:** A representation of a object in a computer program where its surfaces are represented by vertices in x,y,z space with edges between them comprising geometric faces.
+
+
+**Screened Poisson:** Surface reconstruction technique that creates watertight surfaces from oriented point sets.
+
+**Zero Area Faces:** Faces with zero area, such as faces with all vertices at the same point or faces with two edges at the same position (forming a single line), are selected. 
+
+**obj file format:** A format for describing a 3D object which is plain text so each vertex and face has a line in the file. It can be a very ineffecient storage method, but is a very established format so its a good format for sharing between programs.
+
+**Blender:** Blender is a free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline.
+
+**glb format (for web):** Another 3D model file format. The GLB file format is a binary form of glTF that allows us to put textures animations and model structure descriptions in a single file.
+
+**gltf:** A standard file format for three-dimensional scenes and models, non-binary so actual text description of the model. This will be a larger file than the glb equivalent.
+
+**Glitch:** Web platform for anyone to create websites for free with little effort, or no effort through copying existing projects on glitch. application created for people to build simple web applications using JavaScript. No account needed, but websites created will only last 5 days without an account. Can use Gmail or other existing accounts as stand in.
+
+**Assets:** These are files that you provide to the glitch website.
+
 
 ## Steps
 
 ## Getting your resources
+
+For this workshop we will be using Lidar data and orthographic imagery. It is worthwhile to take a brief moment to explain what these are
+
+[slides](https://docs.google.com/presentation/d/1WGuER6IN57kYKW8KgnLx9F184JyvSEqYsc_Ygl3FL3M/edit?usp=sharing)
 
 ### Getting the lidar data
 
