@@ -9,4 +9,7 @@ Join us for this special GIS Week the MaptimeTUS edition in partnership with [De
 
 In this edition of MaptimeTUS, Devin will give a demo of creating a Virtual Reality tour of Mt. Lemmon and the Catalinas using open data and open source tools. 
 
-Materials can be found [here.](https://github.com/maptime/tucson/tree/gh-pages/sessions/GIS_day_workshop_11-2020) 
+Workshop instructions can be found [here.](https://maptime.io/tucson/sessions/GIS_day_workshop_11-2020)
+
+Github Repo Materials can be found [here.](https://github.com/maptime/tucson/tree/gh-pages/sessions/GIS_day_workshop_11-2020) 
+
